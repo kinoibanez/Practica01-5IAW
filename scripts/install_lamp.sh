@@ -27,9 +27,7 @@ sudo apt install php libapache2-mod-php php-mysql -y
 
 systemctl restart  apache2
 
-
-
-# Modificamos el propietario y el grupo del directorio /var/www/htlm
+# Modificamos el propietario y el grupo del directorio /var/www/html
 
 chown -R www-data:www-data /var/www/html
 
